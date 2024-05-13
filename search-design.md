@@ -1,0 +1,3 @@
+For the seach i have used TF IDF model for vectorization same as i used in the classifier. it load the preprocess csv and pkl which i got from the index as we dont have to run the inital data preprocessing again. 
+For the core of the search it is based on calculation cosine similarities between vector of query and matrix of dataset.Then it select the top three most similar shows and give their name and ID in a json file.
+I designed it using TF IDF as it is widely used techinque for creating a search and can help us get the closest answer that we want and for cosine similarity it is very effective for the given dataset.
